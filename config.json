@@ -1,0 +1,128 @@
+{
+    "name": "Moisés Júnior",
+    "description": "IT Intern",
+    "github": "moisesjunior45",
+    "playlists": {
+        "jogos": [
+            {
+                "title": "GOD OF WAR RAGNAROK - O Início de Gameplay no PS5, em Português PT-BR!",
+                "url": "https://www.youtube.com/watch?v=6fNUO23I_BA&ab_channel=BRKsEDU",
+                "thumb": "https://i.ytimg.com/vi/6fNUO23I_BA/maxresdefault.jpg"
+            },
+            {
+                "title": "GOD OF WAR RAGNAROK #2 - O Segredo de Atreus! | Gameplay no PS5 em Português PT-BR!",
+                "url": "https://www.youtube.com/watch?v=azHObod6mto&ab_channel=BRKsEDU",
+                "thumb": "https://i.ytimg.com/vi/azHObod6mto/maxresdefault.jpg"
+            },
+            {
+                "title": "GTA V #1 - O INÍCIO ÉPICO!!! (GTA 5 em Português PT-BR)",
+                "url": "https://www.youtube.com/watch?v=I6-Ar6J_5bg&ab_channel=BRKsEDU",
+                "thumb": "https://i.ytimg.com/vi/I6-Ar6J_5bg/maxresdefault.jpg"
+            },
+            {
+                "title": "Mortal Kombat 9 - Um dos meus JOGOS FAVORITOS de todos os TEMPOS",
+                "url": "https://www.youtube.com/watch?v=CLKu_AtUs0s&ab_channel=Gameplayrj",
+                "thumb": "https://i.ytimg.com/vi/CLKu_AtUs0s/maxresdefault.jpg"
+            },
+            {
+                "title": "GHOST E EU NO TIRO! - Call of Duty Modern Warfare 2",
+                "url": "https://www.youtube.com/watch?v=9HB4ollRJMM&t=566s&ab_channel=GamesEduUu",
+                "thumb": "https://i.ytimg.com/vi/9HB4ollRJMM/maxresdefault.jpg"
+            },
+            {
+                "title": "Back 4 Blood - Dublado PT-BR: Modo Versus Gameplay",
+                "url": "https://www.youtube.com/watch?v=YwIn1ypl9CU&ab_channel=Joaopefull",
+                "thumb": "https://i.ytimg.com/vi/YwIn1ypl9CU/maxresdefault.jpg"
+            },
+            {
+                "title": "FAR CRY PRIMAL - Início do Gameplay, em Português PT-BR!",
+                "url": "https://www.youtube.com/watch?v=jTOWIoF2FjE&list=PLH9fqbYeMD3MZ0DPgQA-t4KqTgWwcdpsR&ab_channel=BRKsEDU",
+                "thumb": "https://i.ytimg.com/vi/jTOWIoF2FjE/maxresdefault.jpg"
+            }
+        ],
+        "front-end": [
+            {
+                "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
+                "url": "https://youtube.com/watch?v=jOAU81jdi-c",
+                "thumb": "https://img.youtube.com/vi/jOAU81jdi-c/hqdefault.jpg"
+            },
+            {
+                "title": "Como criar um jogo SIMPLES usando JavaScript e HTML | JavaScript para iniciantes - Tutorial",
+                "url": "https://www.youtube.com/watch?v=r9buAwVBDhA&t=47s&ab_channel=ManualdoDev",
+                "thumb": "https://i.ytimg.com/vi/r9buAwVBDhA/maxresdefault.jpg"
+            },
+            {
+                "title": "Jogo da memoria com JavaScript | Parte 1: Login | Criando jogo com JavaScript, HTML e CSS",
+                "url": "https://www.youtube.com/watch?v=NV88N1r2Qkg&t=1s&ab_channel=ManualdoDev",
+                "thumb": "https://i.ytimg.com/vi/NV88N1r2Qkg/maxresdefault.jpg"
+            },
+            {
+                "title": "O QUE SÃO FRAMEWORKS E BIBLIOTECAS? QUAIS AS DIFERENÇAS?",
+                "url": "https://www.youtube.com/watch?v=dp0zB4n3MUs",
+                "thumb": "https://img.youtube.com/vi/dp0zB4n3MUs/hqdefault.jpg"
+            },
+            {
+                "title": "Angular (O Vídeo que Você Precisava para Começar no Framework) // Dicionário do Programador",
+                "url": "https://www.youtube.com/watch?v=Yf0rC7dERjg",
+                "thumb": "https://img.youtube.com/vi/Yf0rC7dERjg/hqdefault.jpg"
+            },
+            {
+                "title": "Como salvar dados de um formulário HTML em uma planilha do Google | HTML, CSS e JavaScript Tutorial",
+                "url": "https://www.youtube.com/watch?v=w7SUjrKCdwE&ab_channel=ManualdoDev",
+                "thumb": "https://i.ytimg.com/vi/w7SUjrKCdwE/maxresdefault.jpg"
+            },
+            {
+                "title": "O que todo iniciante em Front End deveria aprender | Como manipular arrays e objetos em JavaScript",
+                "url": "https://www.youtube.com/watch?v=yS7AcF-xRUg",
+                "thumb": "https://img.youtube.com/vi/yS7AcF-xRUg/hqdefault.jpg"
+            },
+            {
+                "title": "5 Erros Históricos do CSS",
+                "url": "https://www.youtube.com/watch?v=HNjkqONzGS0",
+                "thumb": "https://img.youtube.com/vi/HNjkqONzGS0/hqdefault.jpg"
+            },
+            {
+                "title": "Deploy de Front End ATUALIZADO! | O que eu uso para hospedagem de Front End",
+                "url": "https://www.youtube.com/watch?v=d9c0r-J6CdM",
+                "thumb": "https://img.youtube.com/vi/d9c0r-J6CdM/hqdefault.jpg"
+            }
+        ],
+        "Back-end": [
+            {
+                "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
+                "url": "https://www.youtube.com/watch?v=dvd3pNYh7So",
+                "thumb": "https://img.youtube.com/vi/dvd3pNYh7So/hqdefault.jpg"
+            },
+            {
+                "title": "Como enviar email com Node.js",
+                "url": "https://www.youtube.com/watch?v=q2sPzKgBMaA&ab_channel=ManualdoDev",
+                "thumb": "https://i.ytimg.com/vi/q2sPzKgBMaA/maxresdefault.jpg"
+            },
+            {
+                "title": "O que é o Java? #HipstersPontoTube",
+                "url": "https://www.youtube.com/watch?v=90NcVNsKGik",
+                "thumb": "https://img.youtube.com/vi/90NcVNsKGik/hqdefault.jpg"
+            },
+            {
+                "title": "O que é Machine Learning? #HipstersPontoTube",
+                "url": "https://www.youtube.com/watch?v=Iuz_jc96bQk",
+                "thumb": "https://img.youtube.com/vi/Iuz_jc96bQk/hqdefault.jpg"
+            },
+            {
+                "title": "A MELHOR linguagem de programação com Fabio Akita | #HipstersPontoTube",
+                "url": "https://www.youtube.com/watch?v=imB0QVoNrGc",
+                "thumb": "https://img.youtube.com/vi/imB0QVoNrGc/hqdefault.jpg"
+            },
+            {
+                "title": "Top 5 libs que todo aplicativo Android deve ter com Alex Felipe | #HipstersPontoTube",
+                "url": "https://www.youtube.com/watch?v=ldRbnpy-qQs",
+                "thumb": "https://img.youtube.com/vi/ldRbnpy-qQs/hqdefault.jpg"
+            },
+            {
+                "title": "Front end ou back end? Por onde começar?",
+                "url": "https://www.youtube.com/watch?v=JsrriTWE94I&ab_channel=ProgramadorBR",
+                "thumb": "https://i.ytimg.com/vi/JsrriTWE94I/maxresdefault.jpg"
+            }
+        ]
+    }
+}

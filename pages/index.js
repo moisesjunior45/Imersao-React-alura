@@ -41,7 +41,6 @@ const StyledHeader = styled.div`
         border-radius: 50%;
     }
     .user-info {
-        margin-top:50px;
         display:flex;
         align-items: center;
         width: 100%;
@@ -49,9 +48,15 @@ const StyledHeader = styled.div`
         gap: 16px;
     }
 `;
+const StyledBanner = styled.div`
+    background-image: url("https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fHRlY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    height: 230px;
+    background-size: 100%;
+    `;
 function Header() {
     return (
         <StyledHeader>
+            <StyledBanner />
             {/* <img src="banner"/> */}
 
             <section className="user-info">

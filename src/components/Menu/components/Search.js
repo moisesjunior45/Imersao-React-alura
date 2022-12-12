@@ -34,13 +34,18 @@ const StyledSearch = styled.div`
   }
 `;
 
-export default function Search() {
-    return (
-        <StyledSearch>
-            <input type="text" />
-            <button>
-                🔎
-            </button>
-        </StyledSearch>
-    )
+export default function Search({ valorDoFiltro, setValorDoFiltro }) {
+  // const [valorDabusca, setValorDaBusca] = React.useState("GOD OF WAR");
+  // console.log("Search", valorDabusca);
+  const valorDabusca = valorDoFiltro;
+  const setValorDaBusca = setValorDoFiltro;
+
+  return (
+    <StyledSearch>
+      <input type="text" onChange={(e) => setValorDaBusca(e.target.value)} value={valorDabusca} />
+      <button>
+        🔎
+      </button>
+    </StyledSearch>
+  )
 }

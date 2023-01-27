@@ -24,11 +24,14 @@ function useForm(propsDoForm) {
 const PROJECT_URL = "https://vafpfhnokpevlynlxheu.supabase.co";
 const PUBLIC_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZhZnBmaG5va3Bldmx5bmx4aGV1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzQ2OTMxOTksImV4cCI6MTk5MDI2OTE5OX0.Ac85T2byzNfwbAhJeMEIc3F3oBVK6gnHpM3VyHTXDjc";
 const supabase = createClient(PROJECT_URL, PUBLIC_KEY);
-console.log(supabase.from("video").insert());
+
+function getThumbnail(url) {
+    return `https://img.youtube.com/vi/${url.split("v=")[1]}/hqdefault.jpg`;
+}
 
 export default function RegisterVideo() {
     const formCadastro = useForm({
-        initialValues: { titulo: "God of War", url: "https://youtube.." }
+        initialValues: { titulo: "God of War", url: "https://www.youtube.com/watch?v=6fNUO23I_BA&ab_channel=BRKsEDU" }
     });
     const [formVisivel, setFormVisivel] = React.useState(false);
 
@@ -42,6 +45,20 @@ export default function RegisterVideo() {
                     <form onSubmit={(evento) => {
                         evento.preventDefault();
                         console.log(formCadastro.values);
+
+                        supabase.from("video").insert({
+                            title: formCadastro.values.titulo,
+                            url: formCadastro.values.url,
+                            thumb: getThumbnail(formCadastro.values.url),
+                            playlist: "jogos",
+                        })
+                            .then((oqueveio) => {
+                                console.log(oqueveio);
+                            })
+                            .catch((err) => {
+                                console.log(err);
+                            })
+
                         setFormVisivel(false);
                         formCadastro.clearForm();
                     }}>
